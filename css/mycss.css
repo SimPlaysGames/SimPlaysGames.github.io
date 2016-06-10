@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(82, 122, 122);
+
+}
+#JumbotronImage{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+#source{
+    font-size: xx-small;
+    color: rgb(150, 150, 150)
+}
+.dropdown-menu{
+    right:auto;
+    left: auto
+}
+
+.jumbotron {
+    padding-bottom: 0px;
+}
+/* Nav bar
+-------------------------------------------------- */
+.navbar{
+    height: 50px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 0px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: rgb(181, 181, 181);
+}
+
+/* End of sticky footer styles
+-------------------------------------------------*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 850px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 850px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 850px;
+
+
